@@ -13,6 +13,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Contacts'),
+          centerTitle: true,
+          backgroundColor: Colors.lightBlue,
         ),
         body: Container(
           height: MediaQuery.of(context).size.height,
