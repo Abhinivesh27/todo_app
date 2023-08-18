@@ -20,6 +20,14 @@ class MyApp extends StatelessWidget {
           child: Column(
             // mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Container(
+                padding: EdgeInsets.all(50),
+                child: SearchBar(
+                  leading: Icon(Icons.search),
+                  hintText: "Search for contacts",
+                  trailing: [Icon(Icons.mic), Icon(Icons.more_vert_sharp)],
+                ),
+              ),
               //Tharani
               ListTile(
                 title: Text("Tharani"),
