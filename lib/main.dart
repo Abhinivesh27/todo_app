@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'IR Assignment',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Contacts'),
+          title: const Text('ontacts'),
         ),
         body: Container(
           height: MediaQuery.of(context).size.height,
