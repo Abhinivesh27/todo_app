@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
               //Prema
               ListTile(
                 title: Text("Premalatha"),
-                subtitle: Text("Mobile     45 min ago"),
+                subtitle: Text("Mobile     40 min ago"),
                 leading: CircleAvatar(
                   child: Image.network(
                       "https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_P_blue-512.png"),
