@@ -56,7 +56,7 @@ class MyApp extends StatelessWidget {
                 subtitle: Text("Mobile     45 min ago"),
                 leading: CircleAvatar(
                   child: Image.network(
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOA0hK2qFVhXHB19ajdvps3k5w5FXgLmcMciQvBP5LsxMKb7lSETgmKv2Ad248B1mIybo&usqp=CAU"),
+                      "https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/letter_P_blue-512.png"),
                 ),
                 trailing: Icon(Icons.phone),
               ),
